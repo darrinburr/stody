@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Project: NOTAWORDDICTIONARY - VIEW PAGE-->
+<html lang="en">
+
+  {% include "head.html" %}
+
+<body>
+
+	<!-- to change theme "a-e" change in header and footer as well else default to theme "a" -->
+	<div data-role="page" data-theme="b">
+	
+	 	{% include "header.html" %}
+	 	
+	 	{% include "search_dict.html" %}
+	 	
+	 	{% include "menumain.html" %}
+
+		<h6>{% include "menuview.html" %}</h6>
+
+		<h2>Dictionary View</h2>
+
+		<!-- format each "block" in this div -->
+		<div class="ui-bar ui-bar-b">
+
+			{% include "block_word_db.html" %}
+
+		</div>
+
+		<h6>{% include "menuview.html" %}</h6>
+
+		{% include "footer.html" %}
+
+	</div>
+
+</body>
+</html> 
+
+<!--       
+    <div class="mainarea">
+    
+      <div class="column1 rim platedark">
+      
+        <h2>Dictionary View</h2>
+        
+          <div class="rounded">
+          
+            {% include "block_word_db.html" %}
+            
+          </div>
+          
+          <div class="footer">
+          
+            {% include "footer.html" %}
+            
+          </div>
+        
+      </div>
+       
+    </div>
+
+-->  

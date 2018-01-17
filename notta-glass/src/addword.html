@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Project: NOTAWORDDICTIONARY -->
+<html lang="en">
+
+  {% include "head.html" %}
+
+<body>
+
+	<div data-role="page">
+	
+	 	{% include "header.html" %}
+	 	
+	 	{% include "menumain.html" %}
+	 	
+	 	<h2>Add your Word Here!</h2>
+            
+            <form action="/new" method="post" >
+            
+              <fieldset data-role="fieldcontain">        
+    
+                    <h3>Word Section</h3>
+                    
+                    {% include "select_language.html" %}
+                    
+                    <label for="name" >Your Word:</label>
+                    <input type="text" name="word" size="30" value="" placeholder="Your Word HERE" >
+                    
+                    <!-- JQUERY MOBILE example
+					<label for="username" class="ui-hidden-accessible">Username:</label>
+								REMOVE class="ui-hidden-accessible" IF YOU WANT THE LABEL TO BE VISABLE
+					<input type="text" name="username" id="username" value="" placeholder="Username"/>
+					-->
+    
+                    {% include "select_part.html" %}
+                    
+                    <label for="name">Pronunciation:<em>*</em></label>
+                    <input type="text" name="pronunciation" size="46">
+
+                    <label for="name">Put your definition here:<em>*</em></label>
+                    <textarea name="definition" rows="3" cols="60"></textarea>                 
+
+                    <label for="name">Example(how it is used):<em>*</em></label>
+                    <input type="text" name="example" size="46">                
+
+                    <label for="name">How it came about:</label>
+                    <textarea name="history" rows="3" cols="60"></textarea>                 
+                  
+                  {% include "select_rating.html" %}
+                
+				<h3>Basic User Information</h3>
+
+				{% include "div_basic_info.html" %}
+
+				<input type="checkbox" name="userpermissionconf" id="checkbox-0" class="custom" value="Yes"/>
+				<label for="checkbox-0">YES I have searched the <a href ="http://www.uspto.gov/trademarks/process/index.jsp">Trademark Electronic Search System (TESS)</a> and my word/phrase appears to be available.</label>
+
+				<input type="checkbox" name="userpermissionconstr" id="checkbox-1" class="custom" value="Yes"/>
+				<label for="checkbox-1">I allow notta.us to serve as my "Constructive Notice to the Public" for my word.</label>
+
+				<input type="checkbox" name="userpermissiontm" id="checkbox-2" class="custom" value="Yes"/>
+				<label for="checkbox-2">PLEASE place a   &trade;  next to my word for me (acronyms cannot be trademarked).</label>
+ 
+            </fieldset>
+              
+            <input type="submit" value="Register your new Word!" />
+            
+            </form>
+            
+            <!--
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="2EF2DMS5B5C5E">
+              <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" 
+                border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            -->
+	 	
+	 	{% include "footer.html" %}
+
+	</div><!-- /page -->
+
+</body>
+</html>
+
+

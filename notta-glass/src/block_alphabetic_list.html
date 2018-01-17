@@ -1,0 +1,7 @@
+
+            {% for record in records %}
+            
+              <br><b> <a href="get_definition_db" action="/get_definition" method="post"><span>{{ record.word|escape }}</span></a>&trade;  </b>  <i>{{record.pronunciation|escape}}</i> &#8226 {{ record.example|escape }} {{ record.like|escape }} | {{ record.ratingaverage|escape }} 
+              <br>
+            
+			{% endfor %}

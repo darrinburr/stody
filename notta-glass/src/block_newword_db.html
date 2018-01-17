@@ -1,0 +1,18 @@
+
+    {% for record in recordnewest %}
+         <!-- <div class="rim">  -->
+            <blockquote>
+              <!-- dot for formatting &#822 -->
+              <h3><b> {{ record.word|escape }}&trade;  </b></h3>
+              
+              <!--
+              <br>
+              <br>1. {  { record.definition|escape }} 
+              <br>
+              -->
+              
+              Example of use: {{ record.example|escape }}
+			</blockquote>
+			<!-- <br> -->
+		 <!-- </div> -->
+	{% endfor %}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Project: cg&o - INDEX PAGE-->
+<html lang="en">
+
+  {% include "head.html" %}
+
+<body>
+	<div data-role="page" data-theme="b">
+	
+	{% include "header.html" %}
+
+            <form>
+
+            <fieldset>
+            
+				<input type="checkbox" name="userpermissionconf" id="checkbox-0" class="custom" value="Yes"/>
+				<label for="checkbox-0">YES I have searched the <a href ="http://www.uspto.gov/trademarks/process/index.jsp">Trademark Electronic Search System (TESS)</a> and my word/phrase appears to be available.</label>
+
+				<input type="checkbox" name="userpermissionconstr" id="checkbox-1" class="custom" value="Yes"/>
+				<label for="checkbox-1">I allow notta.us to serve as my "Constructive Notice to the Public" for my word.</label>
+
+				<input type="checkbox" name="userpermissiontm" id="checkbox-2" class="custom" value="Yes"/>
+				<label for="checkbox-2">PLEASE place a   &trade;  next to my word for me (acronyms cannot be trademarked).</label>
+ 
+            </fieldset>
+              
+            <input type="submit" value="Register your new Word!" />
+            
+            </form>
+	</div>
+
+</body>
+
+</html>

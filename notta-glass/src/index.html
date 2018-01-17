@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Project: NOTAWORDDICTIONARY - INDEX PAGE-->
+<html lang="en">
+
+  {% include "head.html" %}
+
+<body>
+
+	<!-- to change theme "a-e" change in header and footer as well else default to theme "a" -->
+	<div data-role="page" data-theme="b">
+	<!-- <div data-role="content"> -->
+	
+	 	{% include "header.html" %}
+	 	
+	 	{% include "search_dict.html" %}
+	 	
+	 	{% include "menumain.html" %}
+	 	
+	 	{% include "addword_btn.html" %}
+	 	
+	 	<h2>Welcome!</h2>
+            
+		{% include "content_welcome.html" %}
+	 	
+	 	{% include "footer.html" %}
+
+	<!-- </div> /content -->
+
+	</div><!-- /page -->
+
+</body>
+</html>

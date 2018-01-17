@@ -1,0 +1,17 @@
+            {% for record in records %}
+            <blockquote>
+              <b> {{ record.word|escape }}&trade;  </b> &#8226 <i>{{record.pronunciation|escape}}</i>
+              <br>
+              <br>1. {{ record.definition|escape }} 
+              <br>
+              <br>Example of use: {{ record.example|escape }}
+              <br>
+              <br>How it came about: 
+              <br>
+              <br>{{ record.history|escape }} 
+              <br>
+              <br>Owner: {{ record.full|escape }}
+              <br>{{ record.date|escape }} 
+			</blockquote>
+			<br>
+			{% endfor %}

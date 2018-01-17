@@ -1,0 +1,251 @@
+/* ##### all commented out
+#nav {
+    position: absolute;
+    top: 235px;
+    left: 50px;
+    width: 830px;
+/*border opacity */
+    border:1px solid rgba(255, 255, 255, 0.09);
+    color:#dbaa70;
+    padding: 10px;
+    background-color: black;
+
+/*  opacity:.6;
+    filter:Alpha(opacity=60); /* Internet Explorer */
+    background: rgba(0, 0, 0, 0.2);
+
+    font-size:14px;
+	text-transform:uppercase;
+	display:inline;
+
+    }
+
+#navsub {
+    position:absolute;
+    top: 256px;
+    left: 50px;
+    width: 830px;
+    
+/*border opacity */
+    border:1px solid rgba(255, 255, 255, 0.09);
+
+    color:#dbaa70;
+    padding: 10px;
+    background-color: black;
+
+/*  opacity:.6;
+    filter:Alpha(opacity=60); /* Internet Explorer */
+    background: rgba(0, 0, 0, 0.2);
+
+    font-size:14px;
+	text-transform:uppercase;
+	display:inline;
+
+}
+
+#nav span {
+	display:inline;
+	float:left;
+
+    }
+/* header { display: block;} */
+
+
+#outside_container {
+	background:url(images/background_slice.jpg) repeat-x #000000;
+
+    }
+
+#ad {
+	
+	}
+	
+#adboxes{
+	
+	}
+	
+	
+/* 
+--- main PSD (Original, with 'in-lay') http://d2o0t5hpnwv4c1.cloudfront.net/002_WebBuild/site/images/background_main.jpg
+--- screws 800x1000 (some random pic) http://www.tornos.com/dnld/pictures/parts/think-parts-think-tornos-09-800x1000.jpg
+--- bio-gold 800x100(orig) http://www.bru.hlphys.jku.at/surf/image/sym_cub_09p1_Surf.png
+--- main PSD blank small http://d2f8dzk2mhcqts.cloudfront.net/115_WebDesign/7.jpg
+*/
+
+#container {
+	/* id to be replaced with class */
+    background:url(http://www.bru.hlphys.jku.at/surf/image/sym_cub_09p1_Surf.png); 
+    background-repeat:repeat-y;
+	min-height:800px;
+	width:1000px;
+/*  position: relative;*/
+	
+    }
+    
+/*border opacity */
+    border:1px solid rgba(255, 255, 255, 0.09);
+
+
+    color:#dbaa70;
+    padding: 10px;
+/*background-color: black; [default transparent] */
+
+/* opacity:.6;
+filter:Alpha(opacity=60); /* Internet Explorer */
+    background: rgba(0, 0, 0, 0.7);
+
+/*  padding-top:435px;
+	padding-left:85px;
+*/
+    width:830;
+	color:#674f5d;
+	font-size:13px;
+	line-height:20px;
+	
+}
+
+/*
+li  {
+	display:inline;
+	text-decoration:none;
+	/* padding between menu members */
+    padding: 10px;
+
+    }
+*/
+
+/*
+
+ul#menu { 
+	margin:0px;	padding:0px;
+	position:absolute; top:0px; left:10px;
+	
+    }
+
+ul#vert {list-style-type:square;
+
+     }
+
+ul#right_menu { 
+	margin:0px;	padding:0px;
+	position:absolute; top:0px; right:0px;	
+	
+    }
+    
+ul#menu li, ul#right_menu li {
+	margin:0px;	padding:0px;
+	list-style:none;
+	margin-right:10px;
+	font-size:9px;
+	text-transform:uppercase;
+	display:inline;
+	
+    }
+    
+ul#menu li a, ul#right_menu li a {
+	text-decoration:none;
+	color:#bd92b2;
+	
+    }
+    
+ul#menu li a:hover, ul#right_menu li a:hover {
+	text-decoration:none;
+	color:#ffffff;
+	
+    }
+
+*/
+
+/*  this section has no effect on menus
+ul.work {
+	margin:0px; padding:0px;
+	
+    }
+    
+ul.work li {
+	list-style:none;
+	margin:0px; padding:0px;
+	clear:both;
+	
+    }
+    
+ul.work li a {
+	color:#e0b882; 
+	display:block;
+	padding:5px 10px 5px 10px;
+	text-decoration:none;
+	font-size:10px;
+	
+    }
+    
+ul.work li a img {
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;	
+	
+    }
+ul.work li a h4 {
+	color:#674f5d;
+	margin:0px;
+	font-weight:normal;
+	font-size:13px;
+	
+    }
+    
+ul.work li a:hover, ul.work li a:hover h4 { color:#ffffff; }
+
+*/
+
+
+#nav spanr {
+	display:inline;
+	float:right;
+	
+    }
+
+#nav ul {
+
+	}
+
+#nav li {
+	font-size: 9px;
+	text-transform:uppercase;
+	display:inline;
+	text-decoration:none;
+
+    }
+    
+##### */
+
+/*
+    ADD word section li and ol's
+*/
+
+/*
+ fieldset {
+  margin-bottom: 10px;
+}
+  legend {
+  padding: 0 .5px;
+  font-weight: normal;
+}
+ label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+ fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+ fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+*/

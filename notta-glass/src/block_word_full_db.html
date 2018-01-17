@@ -1,0 +1,28 @@
+            
+            {% for record in records %}
+            <div class="rim">
+            <blockquote>
+              <p>
+              {{ record.language|escape }}: <b> {{ record.word|escape }} </b>
+              <br>
+              <i> {{ record.part|escape }} </i> &#8226 {{record.pronunciation|escape}} 
+              <br>
+              <br>1. {{ record.definition|escape }} 
+              <br>
+              <br>Example of use: {{ record.example|escape }}
+              <br>
+              <br>{{ record.history|escape }} 
+              <br>
+              <br>Rated: {{ record.adultrating|escape }} 
+              <br>
+              <br>Owner:
+              <br>{{ record.full|escape }}
+              <br>{{ record.nickname|escape }}
+              <br>{{ record.email|escape }}
+              <br>
+              <br>{{ record.date|escape }} 
+              <br>Like: {{ record.like|escape }} Avg. {{ record.ratingaverage|escape }}
+			</blockquote>
+			</div>
+			<br>
+			{% endfor %}

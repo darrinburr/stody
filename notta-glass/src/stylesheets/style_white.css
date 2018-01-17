@@ -1,0 +1,70 @@
+
+/* white CSS*/
+
+/* author: darrin        */
+/* date:   april 28 2011 */
+
+.left {float:left}
+
+.rightright {float:rightright}
+
+/* this centers a block --ie. like what {float:center} should do */
+/*    margin: 0 auto; // top, bottombottom - and left, rightright values, respectively.  */
+
+body {
+	margin:0px; padding:0px;
+	background-color:white;	font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+/* ######
+#container {
+	background-color: white;
+    background:url(http://www.bru.hlphys.jku.at/surf/image/sym_cub_09p1_Surf.png); 
+    background-repeat:repeat-y;
+	min-height:800px;
+	width:1000px; */
+/*  position:relative;*/
+
+
+/*Logo / Menu / Panel Positioning*/
+h1 {
+	color: brick;
+	font-size:28px;
+	font-weight:normal;
+	}
+
+h2 { 
+	font-family:Georgia, "Times New Roman", Times, serif;
+    color: brick;
+/*  margin:10px 50px 10px; */
+	font-weight:normal;
+    }
+ 
+h3 {
+	color: slate;
+	font-size:16px;
+	font-weight:bold;
+	}
+
+	
+	#headerarea {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 830px;
+
+/*border opacity */
+    border:1px solid rgba(255, 255, 255, 0.09);
+    font-family:Georgia, "Times New Roman", Times, serif;
+    /* color:#dbaa70;*/
+    color: grey;
+    padding: 10px;
+    /*background-color: black;
+
+/*  opacity:.6;
+    filter:Alpha(opacity=60); /* Internet Explorer */
+    background: rgba(60, 60, 60, 0.2);
+
+    }
+	

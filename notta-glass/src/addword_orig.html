@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ {% include "head.html" %}
+
+<body>
+
+  <div id="container">
+  
+    {% include "div_header.html" %} 
+
+    {% include "menumain.html" %} 
+
+    <div id="main" class="rounded">
+      <div class="column1">
+      
+         <h2>Add your Word Here!</h2>
+            
+            <form action="/new" method="post" >
+            
+              <br> Word section
+              {% include "div_language.html" %}
+            
+              <input type="text" name="word" size="30" value="Your Word HERE"></text>
+
+              {% include "div_part.html" %}
+              
+              <div>Pronunciation:<input type="text" name="pronunciation" size="45"></text></div>
+                            
+              <div>Put your definition here:<textarea name="definition" rows="3" cols="60"></textarea></div>
+
+              <div>Example(how it is used):<input type="text" name="example" size="60"></text></div>
+              
+              <div>How it came about:<textarea name="history" rows="3" cols="60"></textarea></div>
+              
+              {% include "div_adult_rating.html" %}
+              
+              <br>
+              <br> Basic User Information section
+              <br>
+              {% include "div_basic_info.html" %}
+              
+              <br>
+              <br>
+              <INPUT NAME="userpermissionconf" value="Yes" TYPE=CHECKBOX READONLY>- YES I have searched the <a href ="http://www.uspto.gov/trademarks/process/index.jsp">Trademark Electronic Search System (TESS)</a> and my word/phrase appears to be available.<BR>
+              <INPUT NAME="userpermissionconstr" value="Yes" TYPE=CHECKBOX READONLY>- I allow nottaword.com to serve as my "Constructive Notice to the Public" for my word<BR>
+              <INPUT NAME="userpermissiontm" value="Yes" TYPE=CHECKBOX READONLY>- PLEASE place a   &trade;  next to my word for me.
+              <br>
+              <br> 
+              
+              <div><span class="ButtonInput"><span><input type="submit" value="Register your new Word!" /></span></span></div>
+            </form>
+            
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2EF2DMS5B5C5E">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" 
+border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>

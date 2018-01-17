@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ {% include "head.html" %}
+
+<body>
+
+  <div id="container">
+    
+    <div class="headerarea">
+      
+       {% include "header.html" %}
+        
+     </div>
+     
+     <div class="menuarea"> 
+
+       {% include "menumain.html" %} 
+
+     </div>
+        
+     <div class="mainarea">
+     
+        <div class="column1 rim platedark">
+  
+         <h2>Add your Word Here!</h2>
+            
+            <form action="/new" method="post" >
+            
+            
+              <h3>Add Word</h3>
+                <ol>
+                  <li>
+                    <label for="name">Word section<em>*</em></label>
+                    
+                    {% include "select_language.html" %}
+                    
+                    <input type="text" name="word" size="30" value="Your Word HERE">
+                  </li>
+                  
+                  <li>
+    
+                    {% include "select_part.html" %}
+                    
+                    <label for="name">Pronunciation:<em>*</em></label>
+                    <input type="text" name="pronunciation" size="46">
+                  </li>
+                  
+                  <li>
+                    <label for="name">Put your definition here:<em>*</em></label>
+                    <textarea name="definition" rows="3" cols="60"></textarea>                 
+                  </li>
+
+                  <li>
+                    <label for="name">Example(how it is used):<em>*</em></label>
+                    <input type="text" name="example" size="46">                
+                  </li>
+                  
+                  <li>
+                    <label for="name">How it came about:</label>
+                    <textarea name="history" rows="3" cols="60"></textarea>                 
+                  </li>
+                  
+                  {% include "select_rating.html" %}
+                
+                </ol>
+                     
+            <fieldset>        
+    
+              <legend>Basic User Information</legend>
+
+              {% include "div_basic_info.html" %}
+
+            </fieldset>
+    
+    
+            <INPUT NAME="userpermissionconf" value="Yes" TYPE=CHECKBOX READONLY>- YES I have searched the <a href ="http://www.uspto.gov/trademarks/process/index.jsp">Trademark Electronic Search System (TESS)</a> and my word/phrase appears to be available.<BR>
+            <INPUT NAME="userpermissionconstr" value="Yes" TYPE=CHECKBOX READONLY>- I allow nottaword.com to serve as my "Constructive Notice to the Public" for my word<BR>
+            <INPUT NAME="userpermissiontm" value="Yes" TYPE=CHECKBOX READONLY>- PLEASE place a   &trade;  next to my word for me.
+            <br>
+            <br> 
+              
+            <div><span class="ButtonInput"><span><input type="submit" value="Register your new Word!" /></span></span></div>
+            </form>
+            <!--
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="2EF2DMS5B5C5E">
+              <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" 
+                border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            -->
+            
+            {% include "div_footer.html" %}

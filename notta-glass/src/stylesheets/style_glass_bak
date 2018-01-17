@@ -1,0 +1,433 @@
+
+
+
+
+
+#outside_container {
+	background:url(images/background_slice.jpg) repeat-x #000000;
+    }
+
+/* 
+--- main PSD (Original, with 'in-lay') http://d2o0t5hpnwv4c1.cloudfront.net/002_WebBuild/site/images/background_main.jpg
+--- screws 800x1000 (some random pic) http://www.tornos.com/dnld/pictures/parts/think-parts-think-tornos-09-800x1000.jpg
+--- bio-gold 800x100(orig) http://www.bru.hlphys.jku.at/surf/image/sym_cub_09p1_Surf.png
+--- main PSD blank small http://d2f8dzk2mhcqts.cloudfront.net/115_WebDesign/7.jpg
+*/
+
+#container {
+    background:url(http://www.bru.hlphys.jku.at/surf/image/sym_cub_09p1_Surf.png); 
+    background-repeat:repeat-y;
+	min-height:800px;
+	width:1000px;
+	}
+		
+	
+body {
+	background-color: black;	
+	font-family:Arial,Helvetica,sans-serif;
+	/* #dbaa70 */
+    color:blue;
+    a:hover: purple;
+    }
+
+/* header {
+	margin: 0px auto;
+	display: block;
+	}	
+*/
+
+.adleaderboard {
+  margin:0 auto;
+	}
+
+#adboxes{
+	
+	}
+	
+
+	
+/*  position:relative;*/
+	
+    }
+
+/*Logo / Menu / Panel Positioning*/
+h1 {
+	color: #dbaa70;
+	font-size: 1.5em;
+	/*font-size:28px;*/
+	font-weight:normal;
+	}
+
+h2 { 
+	font-family:Arial,Helvetica,sans-serif;
+    color: #dbaa70;
+/*  margin:10px 50px 10px; */
+	font-weight:normal;
+    }
+ 
+h3 {
+	color: white;
+	font-size:16px;
+	font-weight:bold;
+	}
+
+
+
+
+
+#navsub {
+    position:absolute;
+    top: 256px;
+    left: 50px;
+    width: 830px;
+    
+    font-size:1em;
+	text-transform:uppercase;
+	display:inline;
+
+}
+
+#nav span {
+	display:inline;
+	float:left;
+
+    }
+
+#nav spanr {
+	display:inline;
+	float:right;
+	
+    }
+
+#nav ul {
+
+	}
+
+#nav li {
+	font-size:1em;
+	text-transform:uppercase;
+	display:inline;
+	text-decoration:none;
+
+    }
+
+/* a   {color:#dbaa70;} */
+
+/* a:hover {color:#ffffff;} */
+
+li  {
+	display:inline;
+	text-decoration:none;
+    padding: 10px;
+
+    }
+
+
+p.normal {font-style:normal;}
+p.italic {font-style:italic;}
+p.oblique {font-style:oblique;}
+
+blockquote {
+	
+	font-size:1em;
+	font-weight:normal;
+	
+    }
+	
+#dictionaryview {
+    position:relitive;
+
+    }
+
+#panel { position:absolute; top:165px; left:51px; }
+
+ul#menu { 
+	margin:0px;	padding:0px;
+	position:absolute; top:0px; left:10px;
+	
+    }
+
+ul#vert {list-style-type:square;
+
+     }
+
+ul#right_menu { 
+	margin:0px;	padding:0px;
+	position:absolute; top:0px; right:0px;	
+	
+    }
+    
+ul#menu li, ul#right_menu li {
+	margin:0px;	padding:0px;
+	list-style:none;
+	margin-right:10px;
+	font-size:1em;
+	text-transform:lowercase;
+	display:inline;
+	
+    }
+    
+ul#menu li a, ul#right_menu li a {
+	text-decoration:none;
+	color:#bd92b2;
+	
+    }
+    
+ul#menu li a:hover, ul#right_menu li a:hover {
+	text-decoration:none;
+	color:#ffffff;
+	
+    }
+
+/*
+	Content
+*/
+
+#main {
+    position:absolute;
+    border:1px solid rgba(255, 255, 255, 0.09);
+    top:290px;
+    left:50px;
+
+/*border opacity */
+    border:1px solid rgba(255, 255, 255, 0.09);
+
+/*font-family:Arial,Helvetica,sans-serif; */
+    color:#dbaa70;
+    padding: 10px;
+/*background-color: black; [default transparent] */
+
+/* opacity:.6;
+filter:Alpha(opacity=60); /* Internet Explorer */
+    background: rgba(0, 0, 0, 0.7);
+
+/*  padding-top:435px;
+	padding-left:85px;
+*/
+    width:830;
+	color:#674f5d;
+	font-size:1em;
+	line-height:20px;
+	
+}
+/* START CONSTRUCT */
+
+.headerarea {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    padding: 10px;
+    /* 830 */
+    width: 830px;
+
+
+
+    }
+/* navagation bars */
+.nav {
+    position: absolute;
+    top: 235px;
+    left: 50px;
+    width: 830px;
+
+    font-size: 1em;
+	text-transform:uppercase;
+	display:inline;
+
+    }
+
+.navtop  {
+  color: cyan;
+  text-transform:lowercase;
+   }
+
+.column1 { 
+   float:left;
+   width:530px;
+   margin-right:30px;
+
+   }
+
+.column2 { float:right; width:270px; }
+
+
+
+.rounded {  
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px;  
+    border-radius: 10px;  
+    
+    border:1px solid;
+    
+    }
+
+.rim {
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+	
+	/*border opacity */
+	border:1px solid rgba(255, 255, 255, 0.09);
+
+	
+	}
+
+/* plate area */
+.plate {
+
+
+    /*  opacity:.6;
+    filter:Alpha(opacity=60); /* Internet Explorer */
+    background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+.left {
+  float:left;
+  display:inline;
+  
+  }
+
+.rightright {
+  float:right;
+  display:inline;
+  
+  }
+  
+.centercenter {
+  margin: 0 auto;
+  }
+
+
+
+#content h2 {
+	font-family:Arial,Helvetica,sans-serif;
+	color:#dbaa70;
+	margin:0px 0px 20px 0px;
+	font-weight:normal;
+	
+}
+
+ul.work {
+	margin:0px; padding:0px;
+	
+    }
+    
+ul.work li {
+	list-style:none;
+	margin:0px; padding:0px;
+	clear:both;
+	
+    }
+    
+ul.work li a {
+	color:#e0b882;
+	display:block;
+	padding:5px 10px 5px 10px;
+	text-decoration:none;
+	font-size:10px;
+	
+    }
+    
+ul.work li a img {
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;	
+	
+    }
+ul.work li a h4 {
+	color:#674f5d;
+	margin:0px;
+	font-weight:normal;
+	font-size:13px;
+	
+    }
+    
+ul.work li a:hover, ul.work li a:hover h4 { color:#ffffff; }
+
+/*	Footer  */
+#footer {
+
+    border-top:none;
+	padding:30px 50px 85px;
+	color:#dbaa70;
+	font-size:9px;
+	line-height:14px;
+	position:relative;
+
+/*  font-family:Arial,Helvetica,sans-serif;*/
+/*    background-color: black; */
+    
+/*  opacity:.6; */
+    filter:Alpha(opacity=60); /* Internet Explorer */
+/*    background: rgba(0, 0, 0, 0.2); */
+
+    }
+
+
+#footer img {
+	
+	float:Left;
+    margin-left:03px;
+	margin-right:00px;
+    margin-bottom:03px;
+
+    }
+    
+#footer span {
+	display:inline;
+	float:left;
+	width:210px;
+	
+    }
+    
+#footer a {
+
+	color:#dbaa70;
+	text-decoration:none;
+	
+    }
+    
+#footer a:hover { color:#ffffff; }
+
+.accesskey {
+	text-decoration: underline;
+	
+	}
+
+/*
+	General Styles
+*/
+
+a img { border:0px }
+
+/*
+    ADD word section li and ol's
+*/
+
+
+ fieldset {
+  margin-bottom: 10px;
+}
+  legend {
+  padding: 0 .5px;
+  font-weight: normal;
+}
+ label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+ fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+ fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;

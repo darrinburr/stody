@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "head.html" %}
+
+<body>
+
+  <div id="container">
+  
+    <div class="headerarea">
+      
+       {% include "header.html" %}
+        
+     </div>
+      
+     <div class="menuarea">
+    
+       {% include "menumain.html" %}
+       
+       {% include "menuview.html" %}
+
+     </div>
+  
+     <div class="mainarea">
+     
+        <div class="column1 rim platedark"> 
+
+          <h2>Alphabetic List View</h2>
+        
+          <div class="rounded">
+          
+            {% include "block_alphabetic_list.html" %}
+            
+          </div>
+          
+          <div class="footer">
+
+            {% include "footer.html" %} 
+        
+          <div>
+        
+      </div>
+       
+    </div>
+    
+  </div>
+        
+
+</body>
+</html>
